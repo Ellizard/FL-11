@@ -1,0 +1,289 @@
+.tm-sidebar a:hover {
+  background: #e9e9e9;
+}
+
+.tm-team-description-container h2 + p {
+  text-indent: 25px;
+  font-style: italic;
+}
+
+.tm-team-description-container p {
+  text-indent: 25px;
+  line-height: 2;
+}
+
+.tm-banner-text {
+  animation: spin 5s;
+  text-shadow: 0 8px 1px rgb(118, 205, 215);
+  letter-spacing: 5px;
+  word-spacing: 20px;
+}
+
+.tm-banner {
+  background: #76cdd7;
+  position: relative;
+}
+
+section {
+  position: relative;
+}
+
+section:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 45px solid #76cdd7;
+  border-right: 45px solid transparent;
+}
+
+.tm-banner-inner {
+  background: #fff;
+}
+
+.heading.tm-content-box a.text:after {
+  content: 'New';
+  color: red;
+  font-size: 10px;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 600;
+}
+
+.heading.tm-content-box a:hover {
+  color: #ffb347;
+  font-weight: bold;
+  border-left: 3px solid #ffb347;
+  padding-left: 5px;
+}
+
+.heading.tm-content-box a:visited {
+  color: #ffb347;
+}
+
+.heading.tm-content-box ol {
+  list-style-type: lower-roman;
+}
+
+.heading.tm-content-box h2 {
+  text-align: center;
+  color: lightskyblue;
+  font-weight: 300;
+}
+
+.flex-2-col {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.box-bg {
+  transition: background-color 0.3s;
+  background: #fff;
+}
+
+.box-bg h2 {
+  transition: color 0.3s;
+}
+
+.box-bg:hover {
+  background: #8acff8;
+}
+
+.box-bg:hover h2 {
+  color: #fff;
+}
+
+section.blocks .tm-section-description {
+  text-indent: 25px;
+}
+
+.gallery-container .box-work p:first-letter {
+  font-weight: bold;
+}
+
+.gallery-container .box-work p {
+  font-style: italic;
+}
+
+.gallery-container .box-work {
+  padding: 8px 10px 15px 10px;
+}
+
+.gallery-container .box-work:nth-child(2n) {
+  background: #f2f2f2;
+}
+
+.contact-form {
+  text-align: right;
+}
+
+.contact-form button {
+  background: white;
+  border: 2px solid lightskyblue;
+  color: lightskyblue;
+  padding: 17px 50px;
+  transition: all .3s;
+}
+
+.contact-form button:hover {
+  background: #a1d7f9;
+  color: white;
+  border: 2px solid #85cff9;
+}
+
+.contact-form input {
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid lightskyblue;
+  transition: all .3s;
+}
+
+textarea.form-control {
+  border: 2px solid lightskyblue;
+  transition: all .3s;
+  resize: none;
+}
+
+textarea.form-control:focus {
+  background-color: #79cdd7;
+  border: 2px solid lightskyblue;
+  color: #fff;
+}
+
+.contact-form input[type="email"] {
+  background: #fff url('../img/email-icon.png') no-repeat right center;
+  background-size: 28px 29px;
+  padding-right: 30px;
+}
+
+textarea,
+.contact-form input:focus {
+  background-color: #79cdd7;
+  border: 2px solid lightskyblue;
+  color: #fff;
+}
+
+.tm-sidebar,
+.tm-content-header,
+section {
+  box-shadow: 0 0 8px 0 rgba(61, 55, 61, 0.7);
+}
+
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+
+@media print {
+
+  section.tm-content-box.heading {
+    display: block;
+  }
+
+  section.tm-content-box,
+  #about,
+  .carousel,
+  .gallery-container,
+  .tm-team-img,
+  .tm-sidebar {
+    display: none;
+  }
+
+  .tm-banner-inner,
+  .tm-content-box {
+    background: none;
+  }
+
+  .padding-medium {
+    padding: 0 0 40px 0;
+  }
+
+  .tm-content-box {
+    margin-bottom: 0;
+  }
+
+  .tm-banner {
+    background: none;
+    padding: 0 0 20px 0;
+  }
+
+  .tm-banner-text {
+    letter-spacing: 0;
+    word-spacing: 0;
+  }
+
+  .heading.tm-content-box ol {
+    list-style: none;
+    max-width: 320px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .tm-team-description-container h2 + p {
+    font-style: normal;
+  }
+
+  .heading.tm-content-box ol li:nth-child(2n) {
+    text-align: right;
+  }
+
+  .heading.tm-content-box ol li a.text:after {
+    display: none;
+  }
+
+  .heading.tm-content-box ol li a:hover {
+    padding: 0;
+    border: none;
+    color: #000;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
+  .heading.tm-content-box ol li a {
+    display: block;
+    position: relative;
+    color: #000;
+  }
+
+  .heading.tm-content-box ol li a:first-letter {
+    font-size: 25px;
+    color: lightskyblue;
+  }
+
+  .tm-team-description-container p {
+    text-indent: 0;
+    line-height: normal;
+  }
+
+  .tm-team-description-container {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  section:before {
+    display: none;
+  }
+
+}
