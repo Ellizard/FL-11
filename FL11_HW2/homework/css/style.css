@@ -204,11 +204,15 @@ section {
 
   section.tm-content-box,
   #about,
-  .carousel,
+  .carousel-indicators,
   .gallery-container,
   .tm-team-img,
   .tm-sidebar {
     display: none;
+  }
+
+  .tm-main-content {
+    padding-top: 0;
   }
 
   .tm-banner-inner,
@@ -216,8 +220,9 @@ section {
     background: none;
   }
 
+  .carousel,
   .padding-medium {
-    padding: 0 0 40px 0;
+    padding: 0 0 20px 0;
   }
 
   .tm-content-box {
@@ -236,7 +241,7 @@ section {
 
   .heading.tm-content-box ol {
     list-style: none;
-    max-width: 320px;
+    max-width: 290px;
     padding: 0;
     margin: 0 auto;
   }
