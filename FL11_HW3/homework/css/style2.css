@@ -66,7 +66,8 @@ button {
     font-weight: 300;
     line-height: 31px;
     margin-bottom: 75px;
-    color: #fff; }
+    color: #fff;
+    font-family: "Fresca", sans-serif; }
 
 .landing-logo, .footer .footer_logo {
   margin-bottom: 90px; }
@@ -83,7 +84,8 @@ button {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    font-size: 30px; }
+    font-size: 30px;
+    font-family: "Fresca", sans-serif; }
     .landing-logo p span, .footer .footer_logo p span {
       text-transform: none;
       display: block;
@@ -123,14 +125,14 @@ main.section {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 175px;
-  padding: 0 10px;
-  background: #2c2f3c; }
+  padding: 0 10px; }
   .section_card_wrap .section_card {
     width: 32%;
     flex-basis: 32%;
     padding: 25px;
     text-align: center;
-    border-radius: 7px; }
+    border-radius: 7px;
+    background: #3b3f50; }
     .section_card_wrap .section_card img {
       width: 100%;
       height: auto;
@@ -199,14 +201,15 @@ main.section {
       background: #ff4e33; }
   .section_banner .section_banner_text {
     font-size: 20px;
-    color: #ccc; }
+    color: #ccc;
+    font-family: "Fresca", sans-serif; }
 
 .footer {
   width: 100%;
   padding-bottom: 75px;
   margin-top: -140px;
   padding-top: 170px;
-  background: #2c2f3c; }
+  background: #3b3f50; }
   .footer .footer-wrap {
     padding-left: 15px;
     padding-right: 15px;
@@ -221,7 +224,8 @@ main.section {
     width: 26%;
     flex-basis: 26%;
     font-size: 19px;
-    line-height: 20px; }
+    line-height: 20px;
+    font-family: "Fresca", sans-serif; }
   .footer .footer_logo {
     width: 35%;
     flex-basis: 35%; }
@@ -231,12 +235,15 @@ main.section {
     font-size: 20px;
     text-align: right; }
   .footer .footer-cr {
-    text-align: right; }
+    text-align: right;
+    font-family: "Fresca", sans-serif; }
   .footer .footer_logo {
     margin-bottom: 0; }
     .footer .footer_logo p {
-      color: #c0c3ce; }
+      color: #c0c3ce;
+      font-family: "Fresca", sans-serif; }
   .footer .footer_logo,
   .footer .footer_text,
   .footer .footer-cr {
-    color: #c0c3ce; }
+    color: #c0c3ce;
+    font-family: "Fresca", sans-serif; }

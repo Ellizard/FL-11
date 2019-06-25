@@ -11,14 +11,23 @@ $white: #fff;
 $dark: #2c2f3c;
 $dark2: #2c2f3c;
 $dark3: #21232e;
+$dark4: #3b3f50;
 $red: #ff4e33;
 $orange: #e3ac00;
 $gray: #c0c3ce;
 $gray2: #ccc;
 
+
+$bannerFont: $fresca;
+$footerCopyFont: $fresca;
+$sectionCardFont: $fresca;
+$headingCopyFont: $fresca;
+$logoFont: $fresca;
+
 // Theme color
 $cardBg: $dark2;
-$footerBg: $dark2;
+$sectionCardBg: $dark4;
+$footerBg: $dark4;
 $bodyBg: $dark3;
 $sectionCardHeading: $white;
 $sectionCardColor: $gray2;

@@ -10,14 +10,22 @@ $container-width: 1560px;
 $white: #fff;
 $dark: #2c2f3c;
 $dark2: #2c2f3c;
+$dark3: #21232e;
 $green: #699900;
 $blue: #14a0c7;
 $gray: #c0c3ce;
 $gray2: #ccc;
 
+$bannerFont: $sans;
+$footerCopyFont: $sans;
+$sectionCardFont: $sans;
+$headingCopyFont: $sans;
+$logoFont: $sans;
+
 // Theme color
 $cardBg: $dark2;
-$footerBg: $dark2;
+$sectionCardBg: $dark3;
+$footerBg: $dark3;
 $bodyBg: $white;
 $sectionCardHeading: $white;
 $sectionCardColor: $gray2;

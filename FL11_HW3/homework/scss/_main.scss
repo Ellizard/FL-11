@@ -91,6 +91,7 @@ button {
     line-height: 31px;
     margin-bottom: 75px;
     color: $headingColor;
+    font-family: $headingCopyFont;
   }
 
 }
@@ -115,7 +116,7 @@ button {
     color: $logoColor;
     text-transform: uppercase;
     font-size: 30px;
-
+    font-family: $logoFont;
     span {
       text-transform: none;
       display: block;
@@ -161,7 +162,6 @@ main.section {
   justify-content: space-between;
   margin-bottom: 175px;
   padding: 0 10px;
-  background: $cardBg;
 
   .section_card {
     width: 32%;
@@ -169,7 +169,7 @@ main.section {
     padding: 25px;
     text-align: center;
     border-radius: 7px;
-
+    background: $sectionCardBg;
     img {
       width: 100%;
       height: auto;
@@ -204,7 +204,7 @@ main.section {
     font-size: 21px;
     line-height: 30px;
     color: $sectionCardColor;
-    font-family: $fresca;
+    font-family: $sectionCardFont;
   }
 
 }
@@ -254,6 +254,7 @@ main.section {
   .section_banner_text {
     font-size: 20px;
     color: $sectionBannerColorCopy;
+    font-family: $bannerFont;
   }
 
 }
@@ -279,6 +280,7 @@ main.section {
     flex-basis: 26%;
     font-size: 19px;
     line-height: 20px;
+    font-family: $footerCopyFont;
   }
 
   .footer_logo {
@@ -295,6 +297,7 @@ main.section {
 
   .footer-cr {
     text-align: right;
+    font-family: $footerCopyFont;
   }
 
   .footer_logo {
@@ -304,6 +307,7 @@ main.section {
 
     p {
       color: $gray;
+      font-family: $footerCopyFont;
     }
   }
 
@@ -311,6 +315,7 @@ main.section {
   .footer_text,
   .footer-cr {
     color: $gray;
+    font-family: $footerCopyFont;
   }
 
 }
