@@ -1,0 +1,33 @@
+// Fonts
+$sans: 'Source Sans Pro', sans-serif;
+$hind: 'Hind', sans-serif;
+$fresca: 'Fresca', sans-serif;
+
+
+$container-width: 1560px;
+
+// Color
+$white: #fff;
+$dark: #2c2f3c;
+$dark2: #2c2f3c;
+$green: #699900;
+$blue: #14a0c7;
+$gray: #c0c3ce;
+$gray2: #ccc;
+
+// Theme color
+$cardBg: $dark2;
+$footerBg: $dark2;
+$bodyBg: $white;
+$sectionCardHeading: $white;
+$sectionCardColor: $gray2;
+$copyDecoration: $blue;
+$buttonBg: $green;
+$buttonBgHover: lighten($green, 10%);
+$sectionColor: $dark;
+$sectionBannerColor: $dark;
+$sectionBannerColorCopy: $gray2;
+$headingColor: $dark;
+$logoColor: $dark;
+$gradient: linear-gradient(to right, rgba(102, 150, 11, 1) 0%, rgba(46, 92, 211, 1) 100%);
+$bannerBg: url('../img/m-h-day.jpg') no-repeat center center;

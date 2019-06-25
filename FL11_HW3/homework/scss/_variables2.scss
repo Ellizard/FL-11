@@ -1,0 +1,34 @@
+// Fonts
+$sans: 'Source Sans Pro', sans-serif;
+$hind: 'Hind', sans-serif;
+$fresca: 'Fresca', sans-serif;
+
+
+$container-width: 1560px;
+
+// Color
+$white: #fff;
+$dark: #2c2f3c;
+$dark2: #2c2f3c;
+$dark3: #21232e;
+$red: #ff4e33;
+$orange: #e3ac00;
+$gray: #c0c3ce;
+$gray2: #ccc;
+
+// Theme color
+$cardBg: $dark2;
+$footerBg: $dark2;
+$bodyBg: $dark3;
+$sectionCardHeading: $white;
+$sectionCardColor: $gray2;
+$copyDecoration: $red;
+$buttonBg: $orange;
+$buttonBgHover: lighten($orange, 10%);
+$sectionColor: $white;
+$sectionBannerColor: $white;
+$sectionBannerColorCopy: $gray2;
+$headingColor: $white;
+$logoColor: $white;
+$gradient: linear-gradient(45deg, rgba(225, 169, 1, 1) 0%, rgba(146, 44, 82, 1) 100%);
+$bannerBg: url('../img/m-h-night.jpg') no-repeat center center;
