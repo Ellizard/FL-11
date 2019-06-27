@@ -19,6 +19,7 @@ nav {
   text-align: center;
   border: 2px solid #FFFFFF;
   font-size: 12px;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .date {
@@ -72,7 +73,6 @@ header nav a:hover {
   color: #E8E8E8;
   text-decoration: underline;
 }
-
 
 
 main {
@@ -148,7 +148,6 @@ main {
   border: 2px solid #F3F3F3;
   color: #F0F0F0;
 }
-
 
 
 .diagonal-columns {
@@ -251,7 +250,6 @@ main {
 }
 
 
-
 .news {
   padding: 30px 50px;
   display: flex;
@@ -345,7 +343,6 @@ main {
 }
 
 
-
 .subscribe {
   background: #F3F3F3;
   padding: 30px 15px;
@@ -357,7 +354,6 @@ main {
   font-size: 12px;
   margin-bottom: 30px;
 }
-
 
 
 .subscribe-form {
