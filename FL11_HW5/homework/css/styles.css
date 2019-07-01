@@ -1,0 +1,462 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: roboto;
+  background: #0b192f;
+  padding: 0 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+header,
+footer,
+main {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 15px;
+  background: #162b4d;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+nav {
+  display: none;
+}
+
+p {
+  font-size: 12px;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+a.toggle-menu {
+  width: 10px;
+  display: block;
+  cursor: pointer;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+a.toggle-menu span {
+  text-align: center;
+  display: block;
+  height: 2px;
+  margin-bottom: 2px;
+  background: #b8b8b8;
+}
+
+
+a.toggle-menu:hover {
+  text-decoration: none;
+}
+
+a.logo {
+  font-weight: 300;
+  font-size: 24px;
+  display: inline-block;
+  margin: 38px 0 22px;
+  color: #fff;
+  text-decoration: none;
+}
+
+a.logo span {
+  color: #B71757;
+}
+
+a.logo:hover {
+  text-decoration: none;
+}
+
+.post {
+  background: #B71757;
+}
+
+.post.post-1 {
+  background: #B71757;
+}
+
+.post.post-2 {
+  background: #0D7E71;
+}
+
+.post.post-3 {
+  background: #b1660e;
+}
+
+.post.post-4 {
+  background: #d12767;
+}
+
+.post.post-5 {
+  background: #2d95bb;
+}
+
+.post img:hover {
+  opacity: 0.5;
+}
+
+.post .copy:hover h2 {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.post img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.post h2 {
+  font-size: 28px;
+  line-height: normal;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 300;
+  transition: color 0.3s;
+}
+
+.post p {
+  margin-bottom: 35px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.post .copy {
+  padding: 25px 25px 15px;
+}
+
+.post .date {
+  text-align: center;
+}
+
+.post .date .day,
+.post .date .month {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.post .date .day {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.post .date .month {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.main {
+  margin-bottom: 15px;
+}
+
+.news {
+  margin-bottom: 25px;
+}
+
+.news-item {
+  background: #fff;
+}
+
+.news-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.news-item .copy {
+  padding: 25px 20px 15px;
+}
+
+.news-item .copy h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #b8b8b8;
+  font-weight: 300;
+}
+
+.news-item .copy p {
+  font-size: 10px;
+  color: #b8b8b8;
+}
+
+footer {
+  padding: 25px 20px;
+  text-align: center;
+  background: #162b4d;
+}
+
+footer p {
+  color: #b8b8b8;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 0 15px;
+  }
+
+  header {
+    margin-bottom: 25px;
+    padding: 23px;
+  }
+
+  a.logo {
+    font-size: 30px;
+    margin: 48px 0 40px;
+  }
+
+  a.toggle-menu {
+    width: 24px;
+  }
+
+  a.toggle-menu span {
+    margin-bottom: 5px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .news-item {
+    margin-bottom: 25px;
+  }
+
+  .main .posts {
+    flex-basis: 57%;
+  }
+
+  .main .news {
+    flex-basis: 40%;
+  }
+
+
+  .news-item .copy {
+    padding: 33px 35px 30px;
+  }
+
+  .news-item .copy h4 {
+    font-size: 24px;
+  }
+
+  .news-item .copy p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .post h2 {
+    font-size: 42px;
+  }
+
+  .post p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 45px;
+  }
+
+  .post .copy {
+    padding: 40px 35px 15px;
+  }
+
+  .post .date .day {
+    font-size: 50px;
+  }
+
+  .post .date .month {
+    font-size: 30px;
+  }
+
+  footer {
+    padding: 25px 20px;
+  }
+
+  footer p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+}
+
+
+@media only screen and (min-width: 1400px) {
+
+  header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 33px;
+  }
+
+  a.toggle-menu {
+    display: none;
+  }
+
+  a.logo {
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+  }
+
+  .post p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .post h2 {
+    font-size: 48px;
+  }
+
+  .post .date {
+    position: absolute;
+    width: 80px;
+    top: 15px;
+  }
+
+  .post .copy,
+  .post .image {
+    flex-basis: 50%;
+  }
+
+  .post .date .day {
+    font-size: 55px;
+  }
+
+  .post .date .month {
+    font-size: 24px;
+  }
+
+  .post.without-image .copy,
+  .post.without-image .image {
+    flex-basis: 100%;
+  }
+
+  .post:nth-child(2n) {
+    text-align: right;
+  }
+
+  .post:nth-child(2n) .copy {
+    order: 1;
+    padding-left: 130px;
+    padding-right: 40px;
+  }
+
+  .post:nth-child(2n) .image {
+    order: 2;
+  }
+
+  .post:nth-child(2n) .date {
+    left: 0;
+  }
+
+  .post:nth-child(2n+1) .copy {
+    order: 2;
+    padding-right: 130px;
+    padding-left: 40px;
+  }
+
+  .post:nth-child(2n+1) .image {
+    order: 1;
+  }
+
+  .post:nth-child(2n+1) .date {
+    right: 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-right: 55px;
+    height: 113px;
+  }
+
+  nav a {
+    line-height: 113px;
+    display: inline-block;
+    margin: 0;
+    padding: 0 22px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    transition: background-color 0.3s;
+    background: none;
+  }
+
+  nav a:hover {
+    text-decoration: none;
+    background: #283d5f;
+  }
+
+  .main .news {
+    flex-basis: 24%;
+  }
+
+  .main .posts {
+    flex-basis: 74%;
+  }
+
+
+  .news-item .copy {
+    padding: 40px 40px 30px;
+  }
+
+
+  .news-item .copy h4 {
+    font-size: 28px;
+  }
+
+
+  .news-item .copy p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 35px;
+  }
+
+  footer p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  footer .copy {
+    flex-basis: 80%;
+  }
+
+  footer .copyright {
+    flex-basis: 12%;
+  }
+
+
+}
+
