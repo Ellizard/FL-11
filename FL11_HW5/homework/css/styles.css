@@ -321,12 +321,14 @@ footer p {
   }
 
   .post p {
-    font-size: 18px;
+    font-size: 1.4vw;
     line-height: 1.4;
+    margin-bottom: 0;
   }
 
   .post h2 {
-    font-size: 48px;
+    font-size: 3.3vw;
+    margin-bottom: 5px;
   }
 
   .post .date {
@@ -341,11 +343,11 @@ footer p {
   }
 
   .post .date .day {
-    font-size: 55px;
+    font-size: 35px;
   }
 
   .post .date .month {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .post.without-image .copy,
@@ -359,8 +361,7 @@ footer p {
 
   .post:nth-child(2n) .copy {
     order: 1;
-    padding-left: 130px;
-    padding-right: 40px;
+    padding: 10px 20px 10px 70px;
   }
 
   .post:nth-child(2n) .image {
@@ -373,8 +374,7 @@ footer p {
 
   .post:nth-child(2n+1) .copy {
     order: 2;
-    padding-right: 130px;
-    padding-left: 40px;
+    padding: 10px 70px 10px 20px;
   }
 
   .post:nth-child(2n+1) .image {
@@ -389,7 +389,7 @@ footer p {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding-right: 55px;
+    padding-right: 20px;
     height: 113px;
   }
 
@@ -460,3 +460,31 @@ footer p {
 
 }
 
+
+@media only screen and (min-width: 1400px) {
+  .post h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+  .post p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .post:nth-child(2n+1) .copy {
+    order: 2;
+    padding-right: 130px;
+    padding-left: 40px;
+  }
+  .post:nth-child(2n) .copy {
+    order: 1;
+    padding-left: 130px;
+    padding-right: 40px;
+  }
+  .post .date .day {
+    font-size: 55px;
+  }
+
+  .post .date .month {
+    font-size: 24px;
+  }
+}
