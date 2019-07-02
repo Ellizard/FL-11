@@ -104,10 +104,12 @@ a.logo:hover {
 
 .post img:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 
-.post .copy:hover h2 {
+.post .copy h2:hover {
   color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
 }
 
 .post img {
@@ -409,6 +411,7 @@ footer p {
     text-decoration: none;
     background: #283d5f;
     color: #b8b8b8;
+    cursor: pointer;
   }
 
   .main .news {
