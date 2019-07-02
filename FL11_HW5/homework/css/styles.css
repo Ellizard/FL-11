@@ -408,6 +408,7 @@ footer p {
   nav a:hover {
     text-decoration: none;
     background: #283d5f;
+    color: #b8b8b8;
   }
 
   .main .news {
