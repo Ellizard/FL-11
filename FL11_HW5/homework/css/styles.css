@@ -200,7 +200,7 @@ footer p {
   margin-bottom: 0;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 480px) {
   body {
     padding: 0 15px;
   }
@@ -291,7 +291,7 @@ footer p {
 }
 
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 768px) {
 
   header {
     display: flex;
