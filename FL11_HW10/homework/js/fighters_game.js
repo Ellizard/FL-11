@@ -8,7 +8,7 @@ function Fighter(obj) {
   let win = 0;
   let lose = 0;
 
-  // get player name.
+  // Get player name.
   this.getName = function() {
     return name;
   };
