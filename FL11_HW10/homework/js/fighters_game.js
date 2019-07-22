@@ -1,5 +1,3 @@
-//const myFighter = new Fighter({name: ‘John’, damage: 20, hp: 100, agility: 25});
-
 function Fighter(obj) {
 
   let name = obj.name;
