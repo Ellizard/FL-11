@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 11 - TODO Cat List</title>
+	<link rel="stylesheet" href="./assets/material-icons/material-icons.css">
+	<link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<div id="root">
+	<h1>TODO Cat List</h1>
+	<div class="warning js-warning"></div>
+	<div class="add-action">
+		<input type="text" placeholder="Add new action" class="js-add-input">
+		<button class="js-add-button" disabled>
+			<i class="material-icons">
+				add_box
+			</i>
+		</button>
+	</div>
+	<ul class="items">
+		<li draggable="true">
+			<div class="item">
+				<div class="action">
+					<label>
+						<input type="checkbox" class="js-checkbox">
+						<span class="label-copy">Test</span>
+					</label>
+					<button class="edit js-edit-button">
+						<i class="material-icons">
+							create
+						</i>
+					</button>
+					<button class="remove js-remove-button">
+						<i class="material-icons">
+							delete
+						</i>
+					</button>
+				</div>
+				<div class="action-edit hidden">
+					<input type="text" class="js-edit-input">
+					<button class="save js-save-button">
+						<i class="material-icons">
+							save
+						</i>
+					</button>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<script src="./src/app.js"></script>
+</body>
+</html>

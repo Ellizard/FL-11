@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: dodgerblue;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+ul {
+  list-style: none;
+
+}
+
+li {
+  margin: 5px 0;
+  cursor: grab;
+}
+
+.add-action {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 4px solid lightskyblue;
+  margin-bottom: 30px;
+}
+
+.add-action input  {
+  width: 90%;
+  height: 40px;
+  padding: 0 15px;
+  line-height: 40px;
+  color: #ccc;
+  font-size: 15px;
+}
+
+.add-action i {
+  font-size: 40px;
+}
+
+.add-action.disabled i {
+  color: #ccc;
+}
+
+.item .action {
+  position: relative;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.item input{
+  margin-right: 5px;
+}
+
+.item label {
+  margin-right: 10px;
+  color: cornflowerblue;
+}
+
+.action-edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 5px 0;
+}
+
+.action-edit.hidden {
+  display: none;
+}
+
+.action-edit input{
+  height: 30px;
+  padding: 0 15px;
+  line-height: 30px;
+  color: #000;
+  font-size: 12px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.action-edit button i {
+  font-size: 28px;
+  color: cornflowerblue;
+}
+
+.remove i,
+.edit i{
+  color: cornflowerblue;
+}
+.remove {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.remove i {
+  font-size: 24px;
+}
+
+.warning {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
