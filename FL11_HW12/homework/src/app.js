@@ -63,7 +63,6 @@ addTask.onclick = function() {
 // Detect click on cancel button.
 for (let i = 0; i < cancelEdit.length; i++) {
   cancelEdit[i].onclick = function() {
-    console.log('cancel');
     location.hash = 'main-page';
     showMainPage();
   };
