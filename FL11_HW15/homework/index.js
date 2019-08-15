@@ -1,4 +1,4 @@
-function Hamburger (type, calories, secretIsAdded = false) {
+function Hamburger(type, calories, secretIsAdded = false) {
   let cal = calories;
   let withCheese = false;
   let tomato = 0;
@@ -39,8 +39,7 @@ function Hamburger (type, calories, secretIsAdded = false) {
       cal += cheeseCalories;
       withCheese = true;
       secretBlocked = true;
-    }
-    else {
+    } else {
       console.log('Sorry, you can add cheese only once!');
     }
   };
@@ -57,8 +56,7 @@ function Hamburger (type, calories, secretIsAdded = false) {
       tomato++;
       cal += tomatoCalories;
       secretBlocked = true;
-    }
-    else {
+    } else {
       console.log('Sorry, you can add cheese only twice!');
     }
   };
