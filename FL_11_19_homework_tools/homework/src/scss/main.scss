@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+button {
+  text-align: center;
+  padding: 10px 15px;
+  margin: 0 10px;
+  cursor: pointer;
+  background: #eaeaea;
+  text-transform: uppercase;
+
+  &:hover {
+    background: darken(#eaeaea, 15%);
+  }
+
+  &.reset {
+    background: #ffb989;
+
+    &:hover {
+      background: darken(#ffb989, 15%);
+    }
+
+  }
+}
+
+
+ul {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#app {
+  max-width: 500px;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.round {
+  font-weight: bold;
+}
+
+.player {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #3d53ea;
+}
+
+.final {
+  font-weight: 600;
+  color: red;
+  margin-bottom: 20px;
+}
