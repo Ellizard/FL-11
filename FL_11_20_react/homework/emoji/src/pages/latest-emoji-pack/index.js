@@ -1,0 +1,1 @@
+export { LatestEmojiPack } from './latest-emoji-pack.component';
